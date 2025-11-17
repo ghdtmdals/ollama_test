@@ -1,0 +1,43 @@
+[
+    {
+        "temperature": 0.0,
+        "repeat_penalty": 1.1,
+        "top_k": 40,
+        "top_p": 0.9
+    },
+
+    {
+        "temperature": 0.2,
+        "repeat_penalty": 1.1,
+        "top_k": 40,
+        "top_p": 0.9
+    },
+
+    {
+        "temperature": 0.4,
+        "repeat_penalty": 1.1,
+        "top_k": 40,
+        "top_p": 0.9
+    },
+
+    {
+        "temperature": 0.6,
+        "repeat_penalty": 1.1,
+        "top_k": 40,
+        "top_p": 0.9
+    },
+
+    {
+        "temperature": 0.8,
+        "repeat_penalty": 1.1,
+        "top_k": 40,
+        "top_p": 0.9
+    },
+
+    {
+        "temperature": 1.0,
+        "repeat_penalty": 1.1,
+        "top_k": 40,
+        "top_p": 0.9
+    }
+]

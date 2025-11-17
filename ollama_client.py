@@ -29,14 +29,14 @@ class ollama_client:
         
         return sorted(models)
     
-    def create_model(self, model_name, model_file):
+    def create_model(self, model_name, model_file, parameters = None):
         model_details = self.parse_modelfile(model_file)
 
         response = self.client.create(
             model = model_name,
             from_ = model_details['FROM'],
             system = model_details['SYSTEM'],
-            parameters = model_details['PARAMETER'],
+            parameters = model_details['PARAMETER'] if not parameters else parameters, ### 파라미터 변경사항 반영
         )
 
         print("Create", model_name, response)

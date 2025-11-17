@@ -25,7 +25,7 @@ services:
     image: ollama/ollama:latest
     container_name: ollama
     volumes:
-    - $PWD/ollama:/root/.ollama
+    - ../ollama:/root/.ollama
     - $PWD/ollama-persona:/ollama-persona
     ports:
     - 11434:11434

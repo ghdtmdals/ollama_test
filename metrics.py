@@ -63,10 +63,10 @@ def std_diversity(responses, by_item = True, average = False):
 
     if average:
         ### 전체 평균 표준편차 반환
-        return np.mean(np.std(responses, axis = 0))
+        return np.mean(np.std(responses, axis = 0)).tolist()
     else:
         ### 표준편차 반환
-        return np.std(responses, axis = 0)
+        return np.std(responses, axis = 0).tolist()
 
 ### 문항별 엔트로피 기반 다양성 측정
 def entropy_diversity(responses, by_item = True, average = False):
@@ -81,16 +81,16 @@ def entropy_diversity(responses, by_item = True, average = False):
     entropies = []
     for i in range(num_items):
         item_responses = responses[:, i]
-        value, counts = np.unique(item_responses, return_counts=True)
+        value, counts = np.unique(item_responses, return_counts = True)
         probabilities = counts / num_models
-        entropies.append(entropy(probabilities, base=2)) ### Shannon entropy 계산, 1에 가까울수록 다양성이 높음
+        entropies.append(entropy(probabilities, base = 2)) ### Shannon entropy 계산, 1에 가까울수록 다양성이 높음
 
     if average:
         ### 전체 평균 엔트로피 반환
-        return np.mean(entropies)
+        return np.mean(entropies).tolist()
     else:
         ### 엔트로피 반환
-        return np.array(entropies)
+        return np.array(entropies).tolist()
 
 ### 문항별 Ceiling/Floor Effect 분석
 def ceil_floor_effect(responses, survey, by_item = True, average = False, ceiling_threshold=0.8, floor_threshold=0.8):
@@ -131,7 +131,7 @@ def ceil_floor_effect(responses, survey, by_item = True, average = False, ceilin
         return np.mean(floor_ratios), np.mean(ceil_ratios)
     
     else:
-        return {"Floor Ratios": floor_ratios, "Ceil Ratios": ceil_ratios}
+        return {"Floor Ratios": floor_ratios.tolist(), "Ceil Ratios": ceil_ratios.tolist()}
 
 #############################################################################################
 #############################################################################################
@@ -177,7 +177,7 @@ def response_consistency_analysis(responses, include_details = False, opposite_n
                 x = responses_arr[a - 1]  # 문항 번호가 1부터 시작한다고 가정
                 y = responses_arr[b - 1]
                 corr, _ = spearmanr(x, y)
-                pair_corrs.append({"pair": (a, b), "corr": corr})
+                pair_corrs.append({"pair": (a, b), "corr": float(corr)})
                 all_within_corrs.append(corr)
 
             group_results.append({
@@ -203,8 +203,8 @@ def response_consistency_analysis(responses, include_details = False, opposite_n
                     x = responses_arr[a - 1]
                     y = responses_arr[b - 1]
                     corr, _ = spearmanr(x, y)
-                    within_a.append({"pair": (a, b), "corr": corr})
-                    all_within_corrs.append(corr)
+                    within_a.append({"pair": (a, b), "corr": float(corr)})
+                    all_within_corrs.append(float(corr))
 
             # B 그룹 내부 상관
             if len(group_b) > 1:
@@ -212,8 +212,8 @@ def response_consistency_analysis(responses, include_details = False, opposite_n
                     x = responses_arr[a - 1]
                     y = responses_arr[b - 1]
                     corr, _ = spearmanr(x, y)
-                    within_b.append({"pair": (a, b), "corr": corr})
-                    all_within_corrs.append(corr)
+                    within_b.append({"pair": (a, b), "corr": float(corr)})
+                    all_within_corrs.append(float(corr))
 
             # A ↔ B (반대 문항들 간 상관)
             inconsistent_pairs = []
@@ -223,8 +223,8 @@ def response_consistency_analysis(responses, include_details = False, opposite_n
                 corr, _ = spearmanr(x, y)
                 record = {
                     "pair": (a, b),
-                    "corr": corr,
-                    "is_inconsistent": corr > opposite_neg_threshold
+                    "corr": float(corr),
+                    "is_inconsistent": float(corr) > opposite_neg_threshold
                 }
                 across_ab.append(record)
                 all_opposite_corrs.append(corr)
@@ -257,7 +257,8 @@ def response_consistency_analysis(responses, include_details = False, opposite_n
             "overall_avg_opposite_corr": float(np.nanmean(all_opposite_corrs)) if all_opposite_corrs else np.nan,
         }
 
-    return json.dumps(result_summary, ensure_ascii = False, indent = 3)
+    # return json.dumps(result_summary, ensure_ascii = False, indent = 3)
+    return result_summary
 
 #############################################################################################
 #############################################################################################

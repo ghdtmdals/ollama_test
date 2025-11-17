@@ -1,0 +1,1237 @@
+﻿{
+  "timestamp": "2025-11-17_08-24-19",
+  "responses_raw": {
+    "basic_p1:v1": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      2,
+      3,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "basic_p2:v1": [
+      2,
+      1,
+      3,
+      2,
+      3,
+      3,
+      3,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      2,
+      4
+    ],
+    "basic_p3:v1": [
+      1,
+      3,
+      4,
+      2,
+      1,
+      2,
+      5,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "basic_p4:v1": [
+      2,
+      2,
+      2,
+      1,
+      6,
+      3,
+      4,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "basic_p5:v1": [
+      1,
+      3,
+      3,
+      3,
+      6,
+      1,
+      5,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "basic_p6:v1": [
+      2,
+      2,
+      3,
+      2,
+      3,
+      1,
+      3,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "basic_p7:v1": [
+      1,
+      1,
+      4,
+      1,
+      2,
+      2,
+      1,
+      2,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "basic_p8:v1": [
+      2,
+      4,
+      4,
+      2,
+      4,
+      2,
+      5,
+      1,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4
+    ],
+    "basic_p9:v1": [
+      1,
+      2,
+      3,
+      2,
+      1,
+      4,
+      4,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4
+    ],
+    "basic_p10:v1": [
+      1,
+      2,
+      3,
+      1,
+      2,
+      2,
+      4,
+      1,
+      4,
+      4,
+      4,
+      4,
+      3,
+      4,
+      4,
+      3,
+      4
+    ]
+  },
+  "responses_detailed": {
+    "basic_p1:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "남성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "30대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 3,
+        "answer_label": "대졸"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 1,
+        "answer_label": "수도권"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "IT/정보통신"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "연구/개발"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 3,
+        "answer_label": "3-5년"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p2:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "여성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "20대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 3,
+        "answer_label": "대졸"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 2,
+        "answer_label": "광역시"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 3,
+        "answer_label": "금융/서비스"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 3,
+        "answer_label": "영업/마케팅"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 3,
+        "answer_label": "3-5년"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 2,
+        "answer_label": "낮다"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p3:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "남성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 3,
+        "answer_label": "40대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 4,
+        "answer_label": "대학원 이상"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 2,
+        "answer_label": "광역시"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "제조업"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "연구/개발"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 5,
+        "answer_label": "10년 이상"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p4:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "여성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "30대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 2,
+        "answer_label": "전문대"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 1,
+        "answer_label": "수도권"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 6,
+        "answer_label": "기타"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 3,
+        "answer_label": "영업/마케팅"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 4,
+        "answer_label": "6-10년"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p5:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "남성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 3,
+        "answer_label": "40대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 3,
+        "answer_label": "대졸"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 3,
+        "answer_label": "기타도시"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 6,
+        "answer_label": "기타"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "관리/기획"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 5,
+        "answer_label": "10년 이상"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p6:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "여성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "30대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 3,
+        "answer_label": "대졸"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 2,
+        "answer_label": "광역시"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 3,
+        "answer_label": "금융/서비스"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "관리/기획"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 3,
+        "answer_label": "3-5년"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p7:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "남성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "20대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 4,
+        "answer_label": "대학원 이상"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 1,
+        "answer_label": "수도권"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "IT/정보통신"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "연구/개발"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 1,
+        "answer_label": "1년 미만"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "계약직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 3,
+        "answer_label": "보통이다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p8:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "여성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 4,
+        "answer_label": "50대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 4,
+        "answer_label": "대학원 이상"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 2,
+        "answer_label": "광역시"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 4,
+        "answer_label": "공공/교육"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "연구/개발"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 5,
+        "answer_label": "10년 이상"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 4,
+        "answer_label": "자주"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p9:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "남성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "30대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 3,
+        "answer_label": "대졸"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 2,
+        "answer_label": "광역시"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "제조업"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 4,
+        "answer_label": "생산/운영"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 4,
+        "answer_label": "6-10년"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ],
+    "basic_p10:v1": [
+      {
+        "id": 1,
+        "question": "성별을 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "남성"
+      },
+      {
+        "id": 2,
+        "question": "귀하의 연령대를 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "30대"
+      },
+      {
+        "id": 3,
+        "question": "최종 학력은 무엇입니까?",
+        "answer_value": 3,
+        "answer_label": "대졸"
+      },
+      {
+        "id": 4,
+        "question": "현재 거주 지역은 어디입니까?",
+        "answer_value": 1,
+        "answer_label": "수도권"
+      },
+      {
+        "id": 5,
+        "question": "현재 종사하고 있는 산업군을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "IT/정보통신"
+      },
+      {
+        "id": 6,
+        "question": "현재 직무 유형을 선택해주세요.",
+        "answer_value": 2,
+        "answer_label": "연구/개발"
+      },
+      {
+        "id": 7,
+        "question": "해당 직무에서 근무하신 지 얼마나 되었습니까?",
+        "answer_value": 4,
+        "answer_label": "6-10년"
+      },
+      {
+        "id": 8,
+        "question": "현재 근무 형태를 선택해주세요.",
+        "answer_value": 1,
+        "answer_label": "정규직"
+      },
+      {
+        "id": 9,
+        "question": "현재 직장의 근무 환경(시설/장비/업무 시스템)에 얼마나 만족하십니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 10,
+        "question": "귀하의 직무에 필요한 역량이 충분히 발휘될 수 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 11,
+        "question": "현재 직업 전체에 대한 전반적인 만족도는 어느 정도입니까?",
+        "answer_value": 4,
+        "answer_label": "만족"
+      },
+      {
+        "id": 12,
+        "question": "현재 직장에서 맡고 있는 업무가 본인의 적성과 잘 맞는다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 13,
+        "question": "현재 직무를 계속 유지하고 싶다는 생각을 얼마나 자주 하십니까?",
+        "answer_value": 3,
+        "answer_label": "가끔"
+      },
+      {
+        "id": 14,
+        "question": "현재 근무하는 조직의 문화가 본인에게 긍정적으로 작용하고 있다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 15,
+        "question": "현재 직업이 장기적인 커리어 목표에 도움이 된다고 느끼십니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      },
+      {
+        "id": 16,
+        "question": "직장에서의 스트레스 수준을 어떻게 평가하십니까?",
+        "answer_value": 3,
+        "answer_label": "보통"
+      },
+      {
+        "id": 17,
+        "question": "현재 직업이 나에게 보람과 성취감을 준다고 느끼는 편입니까?",
+        "answer_value": 4,
+        "answer_label": "그렇다"
+      }
+    ]
+  }
+}
