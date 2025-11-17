@@ -1,0 +1,46 @@
+services:
+  pytorch:
+    image: pytorch/pytorch:2.9.1-cuda12.6-cudnn9-runtime
+    container_name: pytorch
+    tty: true
+    command: bash
+    shm_size: '24gb'
+    volumes:
+    - $PWD:/workspace
+    ports:
+    - 4000:4000
+    networks:
+    - ollama-network
+    environment:
+    - CHECK_USER_NAME="SEUNGMINHONG"
+    deploy:
+      resources:
+        reservations:
+            devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+  
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    volumes:
+    - $PWD/ollama:/root/.ollama
+    - $PWD/ollama-persona:/ollama-persona
+    ports:
+    - 11434:11434
+    networks:
+    - ollama-network
+    environment:
+    - CHECK_USER_NAME="SEUNGMINHONG"
+    deploy:
+      resources:
+        reservations:
+            devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+networks:
+  ollama-network:
+    driver: bridge
